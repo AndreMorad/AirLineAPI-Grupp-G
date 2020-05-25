@@ -9,6 +9,7 @@ namespace AirLineAPI.Configuration
         public MappedProfile()
         {
             int aksdj = 122;
+            asdas
 
             CreateMap<Passenger, PassengerDto>()
                 .ReverseMap();
