@@ -2,21 +2,18 @@
 using AutoMapper;
 using AirLineAPI.Dto;
 
-
 namespace AirLineAPI.Configuration
 {
     public class MappedProfile : Profile
     {
         public MappedProfile()
         {
-
-
+            int aksdj = 122;
 
             CreateMap<Passenger, PassengerDto>()
                 .ReverseMap();
             CreateMap<Destination, DestinationDto>()
                 .ReverseMap();
-
 
             CreateMap<Route, RouteDto>()
               .ReverseMap()
